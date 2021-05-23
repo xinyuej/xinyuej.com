@@ -1,0 +1,389 @@
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+body {
+    font-family: 'Open Sans', sans-serif;
+   
+}
+.pad-top {
+    padding-top:50px;
+}
+.pad-top-more {
+    padding-top:70px;
+}
+.text-center {
+    text-align:center;
+}
+/*JUST ADDED PADDING IN SECTIONS OF TEMPLATE */
+section {
+    padding-top:50px;
+}
+/* ADDED PADDING IN NAVBAR */
+.navbar {
+    padding:50px;
+     -webkit-transition: background .8s ease-out,padding .8s ease-out;
+        -moz-transition: background .8s ease-out,padding .8s ease-out;
+        transition: background .8s ease-out,padding .8s ease-out;
+}
+/* CLASS FOR REMOVING PADDING IN NAVBAR*/
+.navbar-pad-original {
+      padding:5px;
+}
+/*========================================
+    NAV BAR
+    ======================================*/
+.navbar-inverse .navbar-nav > li > a {
+color: #000;
+}
+.navbar-inverse {
+background-color: #FFF;
+border-color: #93bae0;
+font-size: 20px;
+letter-spacing: 1px;
+font-style: bold
+}
+
+.navbar-inverse a:hover {
+    background-color: ;
+    border-color: #93bae0;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-style: bold
+    }
+    
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+color: #ffffff;
+background-color: #93bae0;
+}
+.navbar-inverse .navbar-brand {
+color: #000;
+font-size: 27px;
+font-style: bold;
+font-weight: 900;
+letter-spacing: 1px
+}
+.navbar-inverse:hover .navbar-brand:hover {
+color: #2e72b4;
+font-size: 28px;
+font-style: bold;
+font-weight: 900;
+letter-spacing: 1px
+}
+.navbar-toggle {
+    background-color: black;
+}
+
+.navbar .navbar-toggle:hover, .my-navbar .navbar-toggle:focus {
+  background-color: #425766;
+}
+
+.navbar .navbar-nav .open .dropdown-menu > li > a:hover, .navbar .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #2e72b4;
+    font-size: medium;
+  }
+
+.navbar,li:hover .dropdown-menu {display: block;}
+
+/*CHANGING COLOR  SCROLLSPY ON LINK ACTIVE  */
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+color: #fff;
+background-color: #93bae0;
+}
+.dropdown-menu{
+    font-size: large;
+}
+/*========================================
+    HOME SECTION
+    ======================================*/
+#home {
+min-height:800px;
+background-color:#ffffff;
+}
+    #home h1,#home h3 {
+        color:#fff;
+        text-transform:uppercase;
+    }
+    #home a i {
+        display:table;
+        font-size:150px;
+    
+}
+/*========================================
+    ABOUT SECTION
+    ======================================*/
+#about {
+background-color: #93bae0;
+color: #fff;
+min-height:700px;
+    letter-spacing: 1px;
+    line-height: 30px
+}
+.panel > .panel-heading {
+position: relative;
+padding: 12px;
+}
+.panel-title > a.collapsed:after {
+content: '+';
+position: absolute;
+right: 24px;
+letter-spacing: 3px;
+}
+
+.panel-title > a:after {
+ content: '-';
+position: absolute;
+right: 24px;
+}
+.panel {
+color:#000;
+}
+
+ /*========================================
+    PORTFOLIO SECTION
+    ======================================*/
+ 
+
+#portfolio {
+    z-index: 1;
+    
+}
+
+.portfolio-modal .modal-content {
+    padding: 300px 0;
+    min-height: 90%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.modal-body span {
+    cursor:pointer;
+    color:#000000;
+}
+/*========================================
+    CONTACT SECTION
+    ======================================*/
+#contact {
+    min-height:400px;
+    letter-spacing: 3px
+    }
+#contact .form-control {
+    height:60px;
+    letter-spacing: 2px
+}
+.cnt {
+width: 100%;
+min-height: 350px;
+border: 1px solid #e1e1e1;
+letter-spacing: 3px
+}
+.add {
+font-size:20px;
+padding:20px;
+letter-spacing: 3px;
+}
+/*========================================
+    FOOTER SECTION
+    ======================================*/
+#footer {
+
+background-color:#7aaee0;
+color: #fff;
+padding: 20px 50px 20px 50px;
+text-align: right;
+border-top: 1px solid #7aaee0;
+    letter-spacing: 1px
+}
+
+/*========================================
+    BACKGROUND IMAGE
+    ======================================*/
+.bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: fill;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 100%;
+  }
+
+  /*========================================
+    HOVER DROPDOWN MENU
+    ======================================*/
+.dropbtn {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 11px;
+  font-size: 20px;
+  border: none;
+  scroll-behavior: smooth;
+  outline-color: #ffffff;
+}
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #5a5a5a;
+  z-index: 1;
+  font-size: medium;
+}
+
+.dropdown-content a {
+  color: rgb(19, 12, 12);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #93bae0;color: white;}
+
+.dropdown-content a:focus {background-color: rgb(0, 0, 0);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #93bae0;}
+
+.dropdown:hover .dropbtn {color: #ffffff;}
+
+
+/*========================================
+    GALLERY SLIDES
+    ======================================*/
+
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .imgcontainer {
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
+    box-shadow: rgb(36, 36, 36);
+    object-fit: cover;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
